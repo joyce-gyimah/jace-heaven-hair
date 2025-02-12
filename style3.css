@@ -1,0 +1,167 @@
+
+    
+
+
+h1 { color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: "lobster";
+    text-shadow: 3px 3px 5px rgba(250, 236, 236, 0.2);
+     font-display: "";
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 20px ;
+    float: right;
+    border-radius: 50%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+nav{
+    background-color: rgb(20, 22, 22);
+    padding: 15px;
+}
+
+
+
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin:auto;
+    
+}    
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #756161 ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+footer {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #504848; /* Dark background */
+    color: #e7e0e0; /* White text */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-links {
+    color: #e7e0e0;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+       color: #e7e0e0;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #e7e0e0;
+    font-size: 20px;
+    text-decoration: none;
+}
+.social-icons i {
+    font-size: 24px;
+    color: white;
+    margin: 10px;
+    transition: 0.3s;
+}
+.social-icons i:hover {
+    color:#e4405f;
+
+}
+nav{
+    text-align: left;
+}
+.copy{
+    color: #e7e0e0;
+}
+.app-badges{
+    display: flex;
+    gap: 15px;
+
+}
+.app-badges img {
+    width: 200px;
+    height: auto;
+}
